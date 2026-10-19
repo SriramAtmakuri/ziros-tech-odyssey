@@ -1,0 +1,31 @@
+// UI chrome icons — sourced from lucide-react (self-hosted via npm like every
+// other dependency here, no CDN/network calls) instead of a hand-drawn set,
+// for a more polished and consistent look. Re-exported under the same names
+// this app already imports everywhere, so no call site needs to change.
+export {
+  Backpack as IconInventory,
+  BarChart3 as IconStats,
+  Save as IconSave,
+  Settings as IconSettings,
+  X as IconClose,
+  Lightbulb as IconHint,
+  Play as IconPlay,
+  Clock as IconClock,
+  Map as IconMap,
+  Sparkles as IconSparkles,
+  Target as IconTarget,
+  Toolbox as IconToolbox,
+  Flame as IconFlame,
+  Star as IconStar,
+  Check as IconCheck,
+  Volume2 as IconVolumeOn,
+  VolumeX as IconVolumeOff,
+  Lock as IconLock,
+  Loader2 as IconLoader,
+  Keyboard as IconKeyboard,
+  Mouse as IconMouse,
+  BookOpen as IconGuide,
+  Search as IconSearch,
+  ArrowRight as IconArrowRight,
+  ScrollText as IconQuest,
+} from 'lucide-react'
