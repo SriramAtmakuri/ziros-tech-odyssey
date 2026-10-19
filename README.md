@@ -1,6 +1,6 @@
 # Ziro's Tech Odyssey
 
-A browser-based learning game, not a quiz app. A portal drops the player, Ziro, onto Tech Planet — 13 zones, each broken in its own way (a corrupted database, a CI pipeline on fire, a hospital system that won't validate records, an IoT fleet gone dark). You fix it by actually doing the work: real SQL against a real database, real Python run by a real interpreter, real terminal commands, architecture-ordering puzzles, and quick concept checks — never multiple choice standing in for the real thing.
+A browser-based learning game, not a quiz app. A portal drops the player, Ziro, onto Tech Planet with 13 zones, each broken in its own way: a corrupted database, a CI pipeline on fire, a hospital system that won't validate records, an IoT fleet gone dark. You fix each one by actually doing the work. That means real SQL against a real database, real Python run by a real interpreter, real terminal commands, architecture-ordering puzzles, and quick concept checks. Never multiple choice standing in for the real thing.
 
 ![Gameplay demo](docs/demo.gif)
 
@@ -10,7 +10,7 @@ A browser-based learning game, not a quiz app. A portal drops the player, Ziro, 
 - [The 13 zones](#the-13-zones)
 - [The chest-rotation system](#the-chest-rotation-system)
 - [Cross-cutting side quests](#cross-cutting-side-quests)
-- [Accessibility & settings](#accessibility--settings
+- [Accessibility & settings](#accessibility--settings)
 - [Running it locally](#running-it-locally)
 - [Project structure](#project-structure)
 - [Stack](#stack)
