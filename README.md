@@ -10,7 +10,7 @@ A browser-based learning game, not a quiz app. A portal drops the player, Ziro, 
 - [The 13 zones](#the-13-zones)
 - [The chest-rotation system](#the-chest-rotation-system)
 - [Cross-cutting side quests](#cross-cutting-side-quests)
-- [Accessibility & settings](#accessibility--settings)
+- [Accessibility & settings](#accessibility--settings
 - [Running it locally](#running-it-locally)
 - [Project structure](#project-structure)
 - [Stack](#stack)
@@ -49,7 +49,7 @@ All five code-executing kinds share one Monaco editor instance — the same edit
 | 12 | Security Stronghold | OWASP, JWT/OAuth, TLS, zero trust |
 | 13 | Collaboration Commons | Jira, agile ceremonies, RACI, OKRs |
 
-Every zone is unlocked from the start — travel anywhere immediately via the Overworld map (`O`), no grinding required to reach the content you actually want. Across all 13 zones there are **~210 main-pool challenges**, each with 3 hints (the last one a full working solution — no shame in using it), verified by **701 automated tests** that run every challenge's real `check()` logic against a real interpreter, not a mock.
+Every zone is unlocked from the start — travel anywhere immediately via the Overworld map (`O`), no grinding required to reach the content you actually want. Across all 13 zones there are **~210 main-pool challenges**, each with 3 hints (the last one a full working solution — no shame in using it), verified by automated tests that run every challenge's real `check()` logic against a real interpreter, not a mock.
 
 ## The chest-rotation system
 
@@ -87,7 +87,7 @@ Fully offline once dependencies are installed — no backend, no API calls, no a
 ```bash
 npm run build   # production build
 npm run lint    # oxlint
-npm test        # vitest — 701 tests
+npm test        # vitest
 ```
 
 ## Project structure
@@ -108,7 +108,7 @@ The engine is intentionally zone-agnostic: `ZoneScene.js` and `ChallengePanelRou
 
 ## Stack
 
-React 19 · Vite · Phaser (movement/chests/NPCs) · Zustand (state) · sql.js · Pyodide · Monaco Editor · Tailwind CSS v4 · Framer Motion · Vitest (701 tests) · oxlint.
+React 19 · Vite · Phaser (movement/chests/NPCs) · Zustand (state) · sql.js · Pyodide · Monaco Editor · Tailwind CSS v4 · Framer Motion · Vitest · oxlint.
 
 ## More gifs
 
